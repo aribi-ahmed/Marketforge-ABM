@@ -8,6 +8,8 @@ MarketForge is an object-oriented Python simulation designed to model stock mark
 
 By simulating individual traders with varying personalities (cautious, aggressive, random, contrarian) acting within a Barabási-Albert network topology, this project demonstrates how macro-level financial trends emerge from micro-level interactions.
 
+## Documentation:
+For more information, check this link: [Marketforge-ABM](https://yxv.notion.site/Stock-Market-Complexity-An-Agent-Based-Modeling-Approach-1c37b49ffa6f8052b0d2d160521e0965)
 ## Key Features
 * **Agent-Based Architecture:** Engineered custom `MarketAgent` and `MarketSimulation` classes to handle localized trading decisions.
 * **Network Science Integration:** Utilized `NetworkX` to construct preferential attachment networks, modeling real-world social influence between traders.
@@ -18,3 +20,4 @@ By simulating individual traders with varying personalities (cautious, aggressiv
 1. Clone the repository:
    ```bash
    git clone [https://github.com/yourusername/MarketForge-ABM.git](https://github.com/yourusername/MarketForge-ABM.git)
+   ```
