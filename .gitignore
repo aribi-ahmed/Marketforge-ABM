@@ -1,0 +1,16 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments (if you use them later)
+venv/
+env/
+.env
+
+# OS generated files (Mac/Windows junk)
+.DS_Store
+Thumbs.db
