@@ -21,3 +21,7 @@ For more information, check this link: [Marketforge-ABM](https://yxv.notion.site
    ```bash
    git clone [https://github.com/yourusername/MarketForge-ABM.git](https://github.com/yourusername/MarketForge-ABM.git)
    ```
+
+<p align="center">
+  <img src="marketforge.png" alt="MarketForge Logo" width="400">
+</p>
