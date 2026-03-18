@@ -1,3 +1,6 @@
+import networkx as nx
+from src.agent import MarketAgent
+
 class MarketSimulation:
     """Simulates a market with networked agents"""
     def __init__(self, num_agents=100):
@@ -44,3 +47,12 @@ class MarketSimulation:
         self.price_history.append(self.price)
         self.volume_history.append(volume)
         self.step_number += 1
+
+    def run_simulation(self, steps=100):
+        """Runs the simulation for a given number of steps"""
+        for _ in range(steps):
+            self.step()
+        return {
+            'price_history': self.price_history,
+            'volume_history': self.volume_history
+        }
