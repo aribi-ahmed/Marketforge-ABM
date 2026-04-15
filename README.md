@@ -19,7 +19,7 @@ For more information, check this link: [Marketforge-ABM](https://yxv.notion.site
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/MarketForge-ABM.git](https://github.com/yourusername/MarketForge-ABM.git)
+   git clone https://github.com/yourusername/MarketForge-ABM.git
    ```
 
 <p align="center">
